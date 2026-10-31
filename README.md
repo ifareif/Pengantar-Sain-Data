@@ -17,4 +17,4 @@ Analisis pendapatan per tahun (2024-2025) dari data transaksi POS dengan Python 
 ## Cara Menjalankan 
 pip install -r requirements.txt
 
-jupyter notebook analisis_pendapatan_pos.ipynb
+jupyter notebook Analisis_Pendapatan_POS.ipynb
