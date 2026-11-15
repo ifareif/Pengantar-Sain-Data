@@ -1,23 +1,38 @@
-# Tugas 7 – Visualisasi Data dengan Matplotlib
+# Tugas 7 — Visualisasi Data dengan Matplotlib
 
-Tugas ini berisi analisis dan visualisasi data transaksi Point of Sale (POS) tahun 2025 menggunakan Python.
+Folder ini berisi notebook analisis dan visualisasi data transaksi Point of Sale (POS) tahun 2025 menggunakan Python.
 
-## Isi folder
-- `Tugas7_visualisasi_matplotlib_pos.ipynb` – notebook pengolahan data dan pembuatan grafik.
-- `Ringkasan_Tugas_7.md` – ringkasan tahapan, empat visualisasi, dan kesimpulan.
-- `hasil/` – lokasi penyimpanan gambar grafik setelah notebook dijalankan.
+## Isi Folder
 
-## Visualisasi
-Notebook menghasilkan satu gambar berisi empat grafik:
-1. Grafik garis penjualan bersih per bulan.
-2. Grafik batang horizontal 10 produk terlaris.
-3. Diagram pie status transaksi.
-4. Scatter plot hubungan jumlah pembelian dengan diskon.
+- `Tugas7_visualisasi_matplotlib_pos.ipynb` — notebook untuk pengolahan data, analisis, dan pembuatan visualisasi.
+- `Hasil Ringkasan Penjualan POS Tahun 2025.png` — gambar hasil ringkasan penjualan POS tahun 2025.
 
-## Cara menjalankan
-1. Buka notebook melalui Jupyter Notebook atau Google Colab.
-2. Pastikan file dataset tersedia di folder utama repository.
-3. Jalankan seluruh sel secara berurutan dari atas ke bawah.
-4. Gambar gabungan akan disimpan sebagai `hasil/visualisasi_gabungan_2x2.png`.
+## Visualisasi yang Dibuat
 
-Library yang digunakan: `pandas`, `numpy`, dan `matplotlib`. Instalasi dapat dilakukan dengan `pip install -r ../requirements.txt`.
+Notebook membahas empat visualisasi utama:
+
+1. **Grafik garis** untuk melihat tren penjualan bersih setiap bulan.
+2. **Grafik batang horizontal** untuk menampilkan 10 produk terlaris.
+3. **Diagram pie** untuk menunjukkan proporsi status transaksi.
+4. **Scatter plot** untuk melihat hubungan jumlah pembelian dengan diskon.
+
+## Hasil Visualisasi
+
+Gambar ringkasan yang disertakan di folder ini:
+
+![Hasil Ringkasan Penjualan POS Tahun 2025](./Hasil%20Ringkasan%20Penjualan%20POS%20Tahun%202025.png)
+
+## Cara Menjalankan
+
+1. Buka notebook menggunakan Jupyter Notebook atau Google Colab.
+2. Pastikan dataset `paket_a_transaksi_pos_2024_2025.csv` berada di direktori utama repository.
+3. Jika menggunakan Jupyter lokal, jalankan dari direktori utama repository.
+4. Instal dependensi jika belum tersedia:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Buka notebook pada folder `Tugas 7` dan jalankan seluruh sel secara berurutan.
+
+Notebook menggunakan dataset dari direktori utama repository. Library yang digunakan meliputi Pandas, NumPy, dan Matplotlib.
