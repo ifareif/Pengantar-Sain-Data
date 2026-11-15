@@ -14,6 +14,10 @@ Pengantar-Sain-Data/
 ├── Tugas 6/
 │   ├── Tugas Manipulasi_Data_Pandas_pos.ipynb
 │   └── README.md
+├── Tugas 7/
+│   ├── Tugas7_visualisasi_matplotlib_pos.ipynb
+│   ├── Ringkasan_Tugas_7.md
+│   └── README.md
 ├── paket_a_transaksi_pos_2024_2025.csv
 ├── requirements.txt
 └── README.md
@@ -30,6 +34,11 @@ Analisis pendapatan transaksi POS per tahun (2024–2025). Proses meliputi pemer
 Praktik manipulasi dataset transaksi POS menggunakan lima materi: Indexing & Selection, Operasi Aritmatika, Filtering, Sorting, serta Grouping & Agregasi.
 
 [📁 Buka folder Tugas 6](./Tugas%206/)
+
+### Tugas 7 — Visualisasi Data dengan Matplotlib
+Visualisasi data transaksi POS tahun 2025 dalam empat grafik: tren penjualan bulanan, 10 produk terlaris, proporsi status transaksi, serta hubungan jumlah pembelian dan diskon.
+
+[📁 Buka folder Tugas 7](./Tugas%207/)
 
 ## Dataset
 Dataset utama: `paket_a_transaksi_pos_2024_2025.csv`.
